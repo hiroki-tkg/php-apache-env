@@ -22,7 +22,6 @@ rm -f .gitignore
 
 # Docker Compose をデタッチで起動
 docker-compose up -d 
-
 ```
 ※ Docker for Macをインストールすると、Docker Composeもセットでついてきます。
 
@@ -31,9 +30,6 @@ dockerがちゃんと動けば、以下ですぐにPHP7.2系/Apache環境にア�
 
 一瞬でできるし、環境がコードベースなので、差異がありません。すごい。
 
-作成 : `<tkg.japan@gmail.com>`  
-
-
 
 Document Rootは  `src ` 以下なので、そこを編集する。
 
@@ -41,3 +37,8 @@ Document Rootは  `src ` 以下なので、そこを編集する。
 ```
 docker exec -i -t [CONTAINER_ID] /bin/bash
 ```
+
+
+作成 : `<tkg.japan@gmail.com>`  
+
+
